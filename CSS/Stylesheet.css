@@ -1,10 +1,11 @@
 @font-face {
     font-family: "Cyber";
     src: url(fonts/CyberwayRiders-lg97d.ttf)
-  }
+}
 
 body {
-    font-family: 'Roboto';font-size: 22px;
+    font-family: 'Roboto';
+    color: #ecf0f1;
     background-color: #222f3e;
 }
 
@@ -12,4 +13,19 @@ body {
     font-size: 60px;
     color: #8395a7;
     font-family:'Cyber';
+}
+
+.Container{
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left:  10px;
+}
+
+footer {
+    position: absolute;
+    padding: 10px;
+    bottom: 0;
+    height: 2.5rem;
 }
