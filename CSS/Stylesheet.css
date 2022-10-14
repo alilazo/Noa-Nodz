@@ -97,10 +97,39 @@ img {
 
 .hoverContainer:hover .textOverlay {
     opacity: 1;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
 }
 
 .hoverContainer:hover img {
     opacity: 0.3;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+/*This is for songs.html*/
+.songList {
+    position: relative;
+    text-align: center;
+}
+
+/*This is for album.html*/
+.albumPage {
+    text-align: center;
+}
+
+/*This is for artists.html*/
+.artistsPage {
+    text-align: center;
+}
+
+.artistList {
+    width: 100%;
+}
+
+tr > th {
+    text-align: left;
+    font-size: large;
 }
 
 footer {
