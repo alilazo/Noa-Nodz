@@ -113,9 +113,50 @@ img {
     text-align: center;
 }
 
+.SongListenButton {
+    position: absolute;
+    background-color: #0abde3;
+    border: none;
+    color: white;
+    padding: 6px 68px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.SongListenButton:hover {
+    background-color: #c8d6e5;
+    color: black;
+}
+
 /*This is for album.html*/
 .albumPage {
+    position: relative;
     text-align: center;
+}
+
+.AlbumListenButton {
+    position: absolute;
+    background-color: #0abde3;
+    border: none;
+    color: white;
+    padding: 6px 68px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.AlbumListenButton:hover {
+    background-color: #c8d6e5;
+    color: black;
 }
 
 /*This is for artists.html*/
