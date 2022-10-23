@@ -21,6 +21,7 @@ img {
     padding-top: 5px;
     text-align: center;
     background-color: rgb(40, 39, 39);
+    
 }
 
 .Navigation ul {
@@ -29,6 +30,7 @@ img {
     margin: 0;
     padding: 0px;
     overflow: hidden;
+    
 }
 
 .Navigation li {
@@ -39,7 +41,9 @@ img {
 
 .Navigation li a {
     text-decoration: none;
+    position: relative;
     color: #ecf0f1;
+    
 }
 
 .logo {
@@ -242,3 +246,31 @@ x-sign {
         opacity: 0.4;
     }
   }
+
+  /*For Underline Nav*/
+  B {
+
+    display: inline-block;
+    position: relative;
+  }
+  B:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  B:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  @media screen and (max-height: 300px) {
+      ul {
+          margin-top: 40px;
+      }
+  }
+  
