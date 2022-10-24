@@ -72,18 +72,78 @@ img {
     outline: none;
     font-size: 15px;
     display: inline;
-  }
+}
+
+.collapsible img{
+    margin-left: auto; 
+    margin-right: auto; 
+    height: 50px;
+}
+
+.Scroll{
+    overflow-x:auto;
+}
+
+.Scroll h1{
+    margin-left: 20px; 
+    margin-bottom: 0px;
+}
+
+.Scroll table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.Scroll td, th {
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    font-size: 30;
+    font-weight: bold;
+}
+
+.Scroll img{
+    height: 250px;
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #333;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: lightgrey;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #333;  /* creates padding around scroll thumb */
+} 
+
+div::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+
+div::-webkit-scrollbar-track {
+    background: #333;        /* color of the tracking area */
+}
+
+div::-webkit-scrollbar-thumb {
+    background-color: lightgrey;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #333;  /* creates padding around scroll thumb */
+} 
   
-  .active, .collapsible:hover {
+.active, .collapsible:hover {
     background-color: #555;
-  }
+}
   
-  .content {
+.content {
     padding: 0 18px;
     display: none;
     overflow: hidden;
     background-color: #333;
-  }
+}
 
 .AlbumOfTheWeek {
     width: 100%; 
