@@ -308,12 +308,12 @@ x-sign {
   }
 
   /*For Underline Nav*/
-  B {
+  .Navigation h1 {
 
     display: inline-block;
     position: relative;
   }
-  B:after {    
+  .Navigation h1:after {    
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -324,7 +324,7 @@ x-sign {
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
-  B:hover:after { 
+  .Navigation h1:hover:after { 
     width: 100%; 
     left: 0; 
   }
