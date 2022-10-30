@@ -8,6 +8,11 @@
     src: url(fonts/Valorant\ Font.ttf)
 }
 
+h1{
+    font-family: 'Valorant';
+
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -93,6 +98,7 @@ img {
 .Scroll h1{
     margin-left: 20px; 
     margin-bottom: 0px;
+    
 }
 
 .Scroll table {
@@ -173,6 +179,7 @@ div::-webkit-scrollbar-thumb {
     cursor: pointer;
     border-radius: 12px;
     left: 50%; transform: translate(-50%);
+    
 }
 
 .textOverlay {
