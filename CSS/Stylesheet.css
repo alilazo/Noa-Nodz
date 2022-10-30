@@ -3,6 +3,11 @@
     src: url(fonts/CyberwayRiders-lg97d.ttf)
 }
 
+@font-face {
+    font-family: "Valorant";
+    src: url(fonts/Valorant\ Font.ttf)
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -42,7 +47,8 @@ img {
 .Navigation li a {
     text-decoration: none;
     position: relative;
-    color: #ecf0f1;
+    color: #0abde3;
+    font-family: 'Valorant';
     
 }
 
@@ -320,7 +326,7 @@ x-sign {
     height: 2px;
     left: 50%;
     position: absolute;
-    background: #fff;
+    background: #0abde3;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
