@@ -210,7 +210,12 @@ div::-webkit-scrollbar-thumb {
 /*This is for songs.html*/
 .songList {
     position: relative;
-    text-align: center;
+    text-align: left;
+}
+
+.song {
+    position: relative;
+    display: inline-block;
 }
 
 .SongListenButton {
@@ -219,6 +224,10 @@ div::-webkit-scrollbar-thumb {
     border: none;
     color: white;
     padding: 6px 68px;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -239,12 +248,21 @@ div::-webkit-scrollbar-thumb {
     text-align: center;
 }
 
+.albums {
+    position: relative;
+    display: inline-block;
+}
+
 .AlbumListenButton {
     position: absolute;
     background-color: #0abde3;
     border: none;
     color: white;
     padding: 6px 68px;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     text-align: center;
     text-decoration: none;
     display: inline-block;
