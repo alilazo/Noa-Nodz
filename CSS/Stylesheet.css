@@ -224,6 +224,56 @@ div::-webkit-scrollbar-thumb {
     height: auto;
 }
 
+.BackButton {
+    position: absolute;
+    margin: 15px;
+    background-color: #0abde3;
+    border: none;
+    color: white;
+    padding: 6px 68px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.BackButton:hover {
+    background-color: #c8d6e5;
+    color: black;
+}
+
+/*Make the text animate from left to right*/
+.Song_Name {
+    animation: slide-right 2s;
+}
+
+@keyframes slide-right {
+    from {
+       margin-left: 100px;
+       opacity: 0;
+    }
+
+    to {
+       margin-left: 0%;
+       opacity: 1;
+    }
+ }
+
+/*make the background picture take up all the width of the screen*/
+.songTemplateBackgroundPicture {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    object-fit: cover;
+    z-index: -1;
+    -webkit-filter: grayscale(100%);
+}
+
 /*This is for songs.html*/
 
 .songList {

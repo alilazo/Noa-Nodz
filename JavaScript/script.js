@@ -83,7 +83,12 @@ function changeTemplate(pageTitle, songName, artistName, coverPictureSourceURL, 
     document.title = pageTitle
     document.getElementById("Song_Name").innerHTML = songName
     document.getElementById("Artist_Name").innerHTML = artistName
-    document.getElementById("cover").src = coverPictureSourceURL
+    //query all the elements with the id name "cover
+    var elements = document.querySelectorAll("#cover");
+    //loop through the elements
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].src = coverPictureSourceURL;
+    }
     document.getElementById("spotifySourceURL").src = spotifySourceURL
     document.getElementById("appleMusicSourceURL").src = appleMusicSourceURL
     document.getElementById("soundCloudSourceURL").src = soundCloudSourceURL
@@ -117,6 +122,19 @@ if (document.URL.includes("song_template.html")) {
         "https://embed.music.apple.com/us/album/montero/1582660720",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         "https://widget.deezer.com/widget/dark/album/258772832"
+        
+        )
+    }
+    if(localStorage.getItem(localStorage.key(0)).includes("FineLine")){
+        changeTemplate(
+        "Noa-Nodz | Fine Line - Harry Styles", 
+        "Fine Line", 
+        "Harry Styles", 
+        "https://cdn.vox-cdn.com/thumbor/cUUdVnTXrleRNqbV-9JloWAleSI=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19535833/thumb_clean.jpg",
+        "https://open.spotify.com/embed/album/7xV2TzoaVc0ycW7fwBwAml?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/fine-line/1485802965",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/944166691&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+        "https://widget.deezer.com/widget/dark/album/122664252"
         
         )
     }

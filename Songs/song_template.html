@@ -4,10 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+    <link rel="shortcut icon" href="../Images/favicon.png" />
     <link rel="stylesheet" href="../CSS/Stylesheet.css" />
     <title id="song_template_title">Song_template</title>
   </head>
@@ -24,15 +22,16 @@
           <li><a href="../artists.html"><h1>Artists</h1></a></li>
       </ul>
     </div>
-    <h1 style="padding: 10px;">Add back btn here</h1>
+
+    <button class="BackButton" onclick="window.location.href='../songs.html'">Back</button>
       <div style="text-align: center; font-size:200%;">
         
-        <h1 style="margin-bottom: 0px;" id="Song_Name">Song_Name</h1>
-        <a href="../LilNasX.html" style="text-decoration: solid;"><h5 style="margin-top: 0px; color: #cccccc;" id="Artist_Name">Artist_Name</h5></a>
+        <h1 style="margin-bottom: 0px;" id="Song_Name" class="Song_Name">Song_Name</h1>
+        <a href="../LilNasX.html" style="text-decoration: solid;"><h5 style="margin-top: 0px; color: #cccccc;" id="Artist_Name" class="Artist_Name">Artist_Name</h5></a>
         
         <div style="text-align: center;">
             <button id = "b1" onclick="f1()" type="button" class="collapsible" style="border-radius: 5px;">
-                <img src="../Images/Logos/SpotifyLogo.png" alt="Spotify Logo"> 
+                <img src="../Images/Logos/SpotifyLogo.png" alt="Spotify Logo">
             </button>
             <div id = "c1" class="content">
                 <iframe style="border-radius: 12px;" id="spotifySourceURL" src="https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -60,9 +59,11 @@
             </div>
         </div>
 
-        <img id = "cover" class="songTemplateCoverPicture" src="../Artists/LilNasX/Images/MontaroSong.jfif" onclick = "showVideo()">
-        <center style="display: none; margin-top: 20px; margin-bottom: 20px;"><iframe width="1280" height="883" id="youtubeSourceURL" src="https://www.youtube.com/embed/videoseries?list=PLxA687tYuMWiDPypxRJTDIPEIg_8K0noW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-    
+        <div style="width: 100%; height: auto; position: relative; margin-top: 50px;">
+            <img id="cover" class="songTemplateBackgroundPicture"/>
+            <img id = "cover" class="songTemplateCoverPicture" src="../Artists/LilNasX/Images/MontaroSong.jfif" onclick = "showVideo()">
+            <center style="display: none; margin-top: 20px; margin-bottom: 20px;"><iframe width="1280" height="883" id="youtubeSourceURL" src="https://www.youtube.com/embed/videoseries?list=PLxA687tYuMWiDPypxRJTDIPEIg_8K0noW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+        </div>
       </div>
 
     <footer>
