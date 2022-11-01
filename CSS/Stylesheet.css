@@ -151,11 +151,17 @@ div::-webkit-scrollbar-thumb {
 }
   
 .content {
-    padding: 0 18px;
+    width: 100%;
     display: none;
     overflow: hidden;
     background-color: #333;
 }
+
+/* Sliding Transition for the button
+#b1{
+    transition:width 1s;
+}
+*/
 
 .AlbumOfTheWeek {
     width: 100%; 
