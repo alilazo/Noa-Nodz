@@ -93,23 +93,34 @@ function changeTemplate(pageTitle, songName, artistName, coverPictureSourceURL, 
 
 if (document.URL.includes("song_template.html")) {
     console.log("You are in the song template page")
-    console.log(localStorage.length)
-
-        if(localStorage.getItem(localStorage.key(0)).includes("As_It_Was")){
-            changeTemplate(
-            "As It Was", 
-            "As It Was", 
-            "Harry Styles", 
-            "../Artists/HarryStyles/Images/AsItWas.jpg",
-            "https://open.spotify.com/embed/track/4LRPiXqCikLlN15c3yImP7?utm_source=generator&theme=0",
-            "https://embed.music.apple.com/us/album/as-it-was/1615584999?i=1615585008",
-            "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1242349246&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-            "https://widget.deezer.com/widget/dark/track/1703487577"
-            
-            )
-        }
+    console.log(localStorage.length + " " + localStorage.key(0))
+    if(localStorage.getItem(localStorage.key(0)).includes("As_It_Was")){
+        changeTemplate(
+        "Noa-Nodz | As It Was - Harry Styles", 
+        "As It Was", 
+        "Harry Styles", 
+        "../Artists/HarryStyles/Images/AsItWas.jpg",
+        "https://open.spotify.com/embed/track/4LRPiXqCikLlN15c3yImP7?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/as-it-was/1615584999?i=1615585008",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1242349246&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+        "https://widget.deezer.com/widget/dark/track/1703487577"
+        
+        )
+    }
+    if(localStorage.getItem(localStorage.key(0)).includes("Montero")){
+        changeTemplate(
+        "Noa-Nodz | MONTERO - Lil Nas X", 
+        "Montero", 
+        "Lil Nas X", 
+        "../Artists/LilNasX/Images/MontaroAlbum.jfif",
+        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/montero/1582660720",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/album/258772832"
+        
+        )
+    }
     //set localStoraged item called As_It_Was_btn to null when one pf the navbar and if the back button is pressed
-    //localStorage.setItem("As_It_Was_btn", null);
 } else {
     //TODO: Maybe implement a 404 page not found here
     localStorage.clear()

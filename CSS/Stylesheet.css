@@ -311,6 +311,12 @@ tr > th {
     object-fit: cover;
 }
 
+.artistColumn {
+    border-collapse: collapse;
+    border: 5px solid #ddd;
+    border-spacing: 4px;
+}
+
 .artistColumn tr:nth-child(2n+1){
     background-color: rgb(40, 39, 39);
 }
