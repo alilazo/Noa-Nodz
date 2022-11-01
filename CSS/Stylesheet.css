@@ -286,16 +286,33 @@ div::-webkit-scrollbar-thumb {
 
 /*This is for artists.html*/
 .artistsPage {
-    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
 }
 
 .artistList {
     width: 100%;
+    border-spacing: 0px;
 }
 
 tr > th {
     text-align: left;
     font-size: large;
+    padding: 0;
+}
+
+.artistPics {
+    position: relative;
+    border-radius: 8px; 
+    box-shadow: 5px 5px 10px black;
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.artistColumn tr:nth-child(2n+1){
+    background-color: rgb(40, 39, 39);
 }
 
 footer {
