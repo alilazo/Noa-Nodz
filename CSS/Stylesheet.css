@@ -213,6 +213,17 @@ div::-webkit-scrollbar-thumb {
     -webkit-filter: blur(2px);
 }
 
+/*This is for the song_template*/
+.songTemplateCoverPicture{
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    border-radius: 8px; 
+    box-shadow: 10px 10px 10px #151e26;
+    object-fit: cover;
+    width: 40%;
+    height: auto;
+}
+
 /*This is for songs.html*/
 
 .songList {

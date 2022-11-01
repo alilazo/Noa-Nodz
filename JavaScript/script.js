@@ -120,6 +120,71 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
+    if(localStorage.getItem(localStorage.key(0)).includes("Satisfaction")){
+        changeTemplate(
+        "Noa-Nodz | Satisfaction - Isak Original", 
+        "Satisfaction", 
+        "Benny Benassi", 
+        "../Songs/Cover Pictures/Satisfaction.jfif",
+        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/montero/1582660720",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/album/258772832"
+        
+        )
+    }
+    if(localStorage.getItem(localStorage.key(0)).includes("KissMeMore")){
+        changeTemplate(
+        "Noa-Nodz | Kiss Me More - Doja cat", 
+        "Kiss Me More", 
+        "Doja Cat", 
+        "../Songs/Cover Pictures/KissMeMore.jpg",
+        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/montero/1582660720",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/album/258772832"
+        
+        )
+    }
+    if(localStorage.getItem(localStorage.key(0)).includes("ILikeYou")){
+        changeTemplate(
+        "Noa-Nodz | I Like You - Doja Cat", 
+        "Montero", 
+        "Lil Nas X", 
+        "../Artists/LilNasX/Images/MontaroAlbum.jfif",
+        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/montero/1582660720",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/album/258772832"
+        
+        )
+    }
+    if(localStorage.getItem(localStorage.key(0)).includes("IAmAGummyBear")){
+        changeTemplate(
+        "Noa-Nodz | I Am A Gummy Bear", 
+        "Montero", 
+        "Lil Nas X", 
+        "../Artists/LilNasX/Images/MontaroAlbum.jfif",
+        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/montero/1582660720",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/album/258772832"
+        
+        )
+    }
+    if(localStorage.getItem(localStorage.key(0)).includes("GetItToIt")){
+        changeTemplate(
+        "Noa-Nodz | Get It To It - Doja Cat", 
+        "Get It To It", 
+        "Doja Cat", 
+        "../Songs/Cover Pictures/GetItToIt.jpeg",
+        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/montero/1582660720",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/album/258772832"
+        
+        )
+    }
     //set localStoraged item called As_It_Was_btn to null when one pf the navbar and if the back button is pressed
 } else {
     //TODO: Maybe implement a 404 page not found here
