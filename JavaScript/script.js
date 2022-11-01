@@ -71,25 +71,3 @@ function showVideo(){
     video.style.display = "block";
     document.getElementById("cover").style.display = "none";
 }
-
-//This is for JavaScript LocalStorage
-
-function As_It_Was_btn(){
-    localStorage.setItem("As_It_Was_btn", "As_It_Was");
-    window.open("Songs/song_template.html", "_self");
-}
-
-if (document.URL.includes("song_template.html")) {
-    console.log("You are in the song template page");
-    var As_It_Was_btn = localStorage.getItem("As_It_Was_btn");
-
-    console.log(As_It_Was_btn);
-
-    if(As_It_Was_btn == "As_It_Was"){
-        document.title = "As It Was";
-        document.getElementById("Song_Name").innerHTML = "As It Was";
-        console.log("Put data here");
-    }
-    //set localStoraged item called As_It_Was_btn to null when one pf the navbar
-    //localStorage.setItem("As_It_Was_btn", null);
-}

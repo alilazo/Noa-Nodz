@@ -3,16 +3,6 @@
     src: url(fonts/CyberwayRiders-lg97d.ttf)
 }
 
-@font-face {
-    font-family: "Valorant";
-    src: url(fonts/Valorant\ Font.ttf)
-}
-
-h1{
-    font-family: 'Valorant';
-
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -52,8 +42,7 @@ img {
 .Navigation li a {
     text-decoration: none;
     position: relative;
-    color: #0abde3;
-    font-family: 'Valorant';
+    color: #ecf0f1;
     
 }
 
@@ -98,7 +87,6 @@ img {
 .Scroll h1{
     margin-left: 20px; 
     margin-bottom: 0px;
-    
 }
 
 .Scroll table {
@@ -179,7 +167,6 @@ div::-webkit-scrollbar-thumb {
     cursor: pointer;
     border-radius: 12px;
     left: 50%; transform: translate(-50%);
-    
 }
 
 .textOverlay {
@@ -208,15 +195,9 @@ div::-webkit-scrollbar-thumb {
 }
 
 /*This is for songs.html*/
-
 .songList {
     position: relative;
     text-align: center;
-}
-
-.song {
-    position: relative;
-    display: inline-block;
 }
 
 .SongListenButton {
@@ -225,10 +206,6 @@ div::-webkit-scrollbar-thumb {
     border: none;
     color: white;
     padding: 6px 68px;
-    top: 92%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -249,21 +226,12 @@ div::-webkit-scrollbar-thumb {
     text-align: center;
 }
 
-.albums {
-    position: relative;
-    display: inline-block;
-}
-
 .AlbumListenButton {
     position: absolute;
     background-color: #0abde3;
     border: none;
     color: white;
     padding: 6px 68px;
-    top: 92%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -340,23 +308,23 @@ x-sign {
   }
 
   /*For Underline Nav*/
-  .Navigation h1 {
+  B {
 
     display: inline-block;
     position: relative;
   }
-  .Navigation h1:after {    
+  B:after {    
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
     height: 2px;
     left: 50%;
     position: absolute;
-    background: #0abde3;
+    background: #fff;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
-  .Navigation h1:hover:after { 
+  B:hover:after { 
     width: 100%; 
     left: 0; 
   }
