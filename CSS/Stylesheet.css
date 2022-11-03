@@ -177,6 +177,10 @@ div::-webkit-scrollbar-thumb {
     border: none;
     color: white;
     padding: 16px 128px;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -184,14 +188,13 @@ div::-webkit-scrollbar-thumb {
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 12px;
-    left: 50%; transform: translate(-50%);
-    
 }
 
 .textOverlay {
+    position: absolute;
     transition: .5s ease;
     opacity: 0;
-    position: absolute;
+    top: 25%;
     left: 50%; transform: translate(-50%);
     font-size: 28px;
 }
@@ -221,31 +224,21 @@ div::-webkit-scrollbar-thumb {
     box-shadow: 10px 10px 10px #151e26;
     object-fit: cover;
     width: 40%;
-    height: auto;
+    height: 40%;
 }
 
-.BackButton {
+.songTemplateBackgroundPicture {
     position: absolute;
-    margin: 15px;
-    background-color: #0abde3;
-    border: none;
-    color: white;
-    padding: 6px 68px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border-radius: 12px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    object-fit: cover;
+    z-index: -1;
+    filter: grayscale(100%);
 }
 
-.BackButton:hover {
-    background-color: #c8d6e5;
-    color: black;
-}
-
-/*Make the text animate from left to right*/
 .Song_Name {
     animation: slide-right 2s;
 }
@@ -261,18 +254,6 @@ div::-webkit-scrollbar-thumb {
        opacity: 1;
     }
  }
-
-/*make the background picture take up all the width of the screen*/
-.songTemplateBackgroundPicture {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    bottom: 0;
-    right: 0;
-    object-fit: cover;
-    z-index: -1;
-    -webkit-filter: grayscale(100%);
-}
 
 /*This is for songs.html*/
 
@@ -321,13 +302,25 @@ div::-webkit-scrollbar-thumb {
     display: inline-block;
 }
 
+.Album {
+    border-radius: 20px; 
+    margin: 30px; 
+    width: 300px; 
+    height: 300px; 
+    box-shadow: 5px 5px 5px black;
+}
+
+.Album:hover {
+    border-radius: 48px;
+}
+
 .AlbumListenButton {
     position: absolute;
     background-color: #0abde3;
     border: none;
     color: white;
     padding: 6px 68px;
-    top: 92%;
+    top: 91%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);

@@ -154,7 +154,7 @@ if (document.URL.includes("song_template.html")) {
         "Noa-Nodz | Kiss Me More - Doja cat", 
         "Kiss Me More", 
         "Doja Cat", 
-        "../Songs/Cover Pictures/KissMeMore.jpg",
+        "../Songs/Cover Pictures/KissMeMore.jfif",
         "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
         "https://embed.music.apple.com/us/album/montero/1582660720",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
