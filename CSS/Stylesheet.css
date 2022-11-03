@@ -267,6 +267,13 @@ div::-webkit-scrollbar-thumb {
     display: inline-block;
 }
 
+.song img{
+    height: 320px;
+    width: 320px;
+    border-radius: 12%;
+    padding: 30px;
+}
+
 .SongListenButton {
     position: absolute;
     background-color: #0abde3;
