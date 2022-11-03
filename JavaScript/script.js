@@ -83,9 +83,7 @@ function changeTemplate(pageTitle, songName, artistName, coverPictureSourceURL, 
     document.title = pageTitle
     document.getElementById("Song_Name").innerHTML = songName
     document.getElementById("Artist_Name").innerHTML = artistName
-    //query all the elements with the id name "cover
     var elements = document.querySelectorAll("#cover");
-    //loop through the elements
     for (var i = 0; i < elements.length; i++) {
         elements[i].src = coverPictureSourceURL;
     }
