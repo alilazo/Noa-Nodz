@@ -92,13 +92,13 @@ img {
 }
 
 .Scroll{
+    position: relative;
     overflow-x:auto;
 }
 
 .Scroll h1{
     margin-left: 20px; 
     margin-bottom: 0px;
-    
 }
 
 .Scroll table {
@@ -195,7 +195,8 @@ div::-webkit-scrollbar-thumb {
     transition: .5s ease;
     opacity: 0;
     top: 25%;
-    left: 50%; transform: translate(-50%);
+    left: 50%; 
+    transform: translate(-50%);
     font-size: 28px;
 }
 
@@ -315,10 +316,29 @@ div::-webkit-scrollbar-thumb {
     width: 300px; 
     height: 300px; 
     box-shadow: 5px 5px 5px black;
+    filter: blur(0px);
 }
 
-.Album:hover {
+.albumHoverContainer:hover .albumTextOverlay {
+    opacity: 1;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+.albumHoverContainer:hover img {
     border-radius: 48px;
+    filter: blur(1px);
+}
+
+
+.albumTextOverlay {
+    position: absolute;
+    transition: .5s ease;
+    opacity: 0;
+    top: 25%;
+    left: 50%; 
+    transform: translate(-50%);
+    font-size: 24px;
 }
 
 .AlbumListenButton {
@@ -372,6 +392,12 @@ tr > th {
     object-fit: cover;
 }
 
+.artistPics:hover {
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    cursor: pointer;
+}
+
 .artistColumn {
     border-collapse: collapse;
     border: 5px solid #ddd;
@@ -381,6 +407,18 @@ tr > th {
 .artistColumn tr:nth-child(2n+1){
     background-color: rgb(40, 39, 39);
 }
+
+.ArtistSingles {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.ArtistSingles tr > th img{
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px black;
+    margin: 10px;
+}
+
 
 footer {
     position: relative;
