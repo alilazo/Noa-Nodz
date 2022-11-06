@@ -75,14 +75,20 @@ function showVideo(){
 //This is for JavaScript LocalStorage
 
 function Listenbtn(localStorageID){
-    localStorage.setItem(localStorageID, localStorageID)
-    window.open("/Noa-Nodz/Songs/song_template.html", "_self")
+    if(arguments.length > 1){
+        localStorage.setItem(localStorageID, localStorageID)
+        window.open(arguments[1], "_self")
+    } else {
+        localStorage.setItem(localStorageID, localStorageID)
+        window.open("Songs/song_template.html", "_self")
+    }
 }
 
-function changeTemplate(pageTitle, songName, artistName, coverPictureSourceURL, spotifySourceURL, appleMusicSourceURL, soundCloudSourceURL, deezerSourceURL, youtubeSourceURL, lyricsSourceURL, songDescription){
+function changeTemplate(pageTitle, songName, artistName, coverPictureSourceURL, spotifySourceURL, appleMusicSourceURL, soundCloudSourceURL, deezerSourceURL, artistLink){
     document.title = pageTitle
     document.getElementById("Song_Name").innerHTML = songName
     document.getElementById("Artist_Name").innerHTML = artistName
+    document.getElementById("Artist_Link").href = artistLink
     var elements = document.querySelectorAll("#cover");
     for (var i = 0; i < elements.length; i++) {
         elements[i].src = coverPictureSourceURL;
@@ -107,7 +113,8 @@ if (document.URL.includes("song_template.html")) {
         "https://open.spotify.com/embed/album/4IRiXE5NROxknUSAUSjMoO?utm_source=generator&theme=0",
         "https://embed.music.apple.com/us/album/7-ep/1468166325",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/969098314&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/100896762"
+        "https://widget.deezer.com/widget/dark/album/100896762",
+        "../Artists/LilNasX/LilNasX.html"
         )
     }
     if(localStorage.getItem(localStorage.key(0)).includes("PlanetHer")){
@@ -167,11 +174,12 @@ if (document.URL.includes("song_template.html")) {
         "Noa-Nodz | MONTERO - Lil Nas X", 
         "Montero", 
         "Lil Nas X", 
-        "../Artists/LilNasX/Images/MontaroAlbum.jfif",
+        "../Songs/Cover Pictures/MontaroSong.jfif",
         "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
         "https://embed.music.apple.com/us/album/montero/1582660720",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832"
+        "https://widget.deezer.com/widget/dark/album/258772832",
+        "../Artists/LilNasX/LilNasX.html"
         
         )
     }
@@ -214,6 +222,62 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
+    if(localStorage.getItem(localStorage.key(0)).includes("StarWalkin")){
+        changeTemplate(
+        "Noa-Nodz | Star Walkin - Lil Nas X", 
+        "Star Walkin", 
+        "Lil Nas X", 
+        "../Songs/Cover Pictures/StarWalkinSong.jpg",
+        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/montero/1582660720",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/album/258772832",
+        "../Artists/LilNasX/LilNasX.html"
+        
+        )
+    }
+    if(localStorage.getItem(localStorage.key(0)).includes("Panini")){
+        changeTemplate(
+        "Noa-Nodz | Panini - Lil Nas X", 
+        "Panini", 
+        "Lil Nas X", 
+        "../Songs/Cover Pictures/PaniniSong.jpg",
+        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/montero/1582660720",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/album/258772832",
+        "../Artists/LilNasX/LilNasX.html"
+        
+        )
+    }
+    if(localStorage.getItem(localStorage.key(0)).includes("Holiday")){
+        changeTemplate(
+        "Noa-Nodz | Holiday - Lil Nas X", 
+        "Holiday", 
+        "Lil Nas X", 
+        "../Songs/Cover Pictures/HolidaySong.jpg",
+        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/montero/1582660720",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/album/258772832",
+        "../Artists/LilNasX/LilNasX.html"
+        
+        )
+    }
+    if(localStorage.getItem(localStorage.key(0)).includes("OldTownRoad")){
+        changeTemplate(
+        "Noa-Nodz | Old Town Road - Lil Nas X", 
+        "Old Town Road", 
+        "Lil Nas X", 
+        "../Songs/Cover Pictures/OldTownRoadSong.jpg",
+        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/montero/1582660720",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/album/258772832",
+        "../Artists/LilNasX/LilNasX.html"
+        
+        )
+    }
     if(localStorage.getItem(localStorage.key(0)).includes("ILikeYou")){
         changeTemplate(
         "Noa-Nodz | I Like You - Post Malone, Doja Cat", 
@@ -253,16 +317,45 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("Grove")){
+    if(localStorage.getItem(localStorage.key(0)).includes("IndustryBaby")){
         changeTemplate(
-        "Noa-Nodz | Grove St. Party - Waka Flocka Flame", 
-        "Groove St. Party", 
-        "Waka Flocka Flame", 
-        "../Songs/Cover Pictures/GroveStParty-WakaFlockaFlame.jpg",
+        "Noa-Nodz | Industry Baby - Lil Nas X", 
+        "Industry Baby", 
+        "Lil Nas X", 
+        "../Songs/Cover Pictures/IndustryBabySong.jpg",
         "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
         "https://embed.music.apple.com/us/album/montero/1582660720",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832"
+        "https://widget.deezer.com/widget/dark/album/258772832",
+        "../Artists/LilNasX/LilNasX.html"
+        
+        )
+    }
+    if(localStorage.getItem(localStorage.key(0)).includes("Rodeo")){
+        changeTemplate(
+        "Noa-Nodz | Rodeo - Lil Nas X", 
+        "Rodeo", 
+        "Lil Nas X", 
+        "../Songs/Cover Pictures/RodeoSong.jpg",
+        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/montero/1582660720",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/album/258772832",
+        "../Artists/LilNasX/LilNasX.html"
+        
+        )
+    }
+    if(localStorage.getItem(localStorage.key(0)).includes("SunGoesDown")){
+        changeTemplate(
+        "Noa-Nodz | Sun Goes Down - Lil Nas X", 
+        "Sun Goes Down", 
+        "Lil Nas X", 
+        "../Songs/Cover Pictures/SunGoesDownSong.jpg",
+        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/montero/1582660720",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/album/258772832",
+        "../Artists/LilNasX/LilNasX.html"
         
         )
     }

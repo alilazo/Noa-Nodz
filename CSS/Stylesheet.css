@@ -93,6 +93,8 @@ img {
 
 .Scroll{
     position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
     overflow-x:auto;
 }
 
@@ -414,9 +416,15 @@ tr > th {
 }
 
 .ArtistSingles tr > th img{
+    cursor: pointer;
     border-radius: 8px;
     box-shadow: 5px 5px 10px black;
     margin: 10px;
+}
+
+.ArtistSingles tr > th img:hover{
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
 }
 
 
