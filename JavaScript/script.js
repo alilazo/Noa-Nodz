@@ -76,7 +76,7 @@ function showVideo(){
 
 function Listenbtn(localStorageID){
     localStorage.setItem(localStorageID, localStorageID)
-    window.open("/Songs/song_template.html", "_self")
+    window.open("/Noa-Nodz/Songs/song_template.html", "_self")
 }
 
 function changeTemplate(pageTitle, songName, artistName, coverPictureSourceURL, spotifySourceURL, appleMusicSourceURL, soundCloudSourceURL, deezerSourceURL, youtubeSourceURL, lyricsSourceURL, songDescription){
