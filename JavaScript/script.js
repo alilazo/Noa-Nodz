@@ -114,7 +114,7 @@ if (document.URL.includes("song_template.html")) {
         "https://embed.music.apple.com/us/album/7-ep/1468166325",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/969098314&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         "https://widget.deezer.com/widget/dark/album/100896762",
-        "../Artists/LilNasX/LilNasX.html"
+        "../Artists/LilNasX.html"
         )
     }
     if(localStorage.getItem(localStorage.key(0)).includes("PlanetHer")){
@@ -126,7 +126,8 @@ if (document.URL.includes("song_template.html")) {
         "https://open.spotify.com/embed/album/1nAQbHeOWTfQzbOoFrvndW?utm_source=generator&theme=0",
         "https://embed.music.apple.com/us/album/planet-her-deluxe/1574004234",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1277395135&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-        "https://widget.deezer.com/widget/dark/album/238876612"
+        "https://widget.deezer.com/widget/dark/album/238876612",
+        "../Artists/DojaCat.html"
         
         )
     }
@@ -139,7 +140,8 @@ if (document.URL.includes("song_template.html")) {
         "https://open.spotify.com/embed/track/4LRPiXqCikLlN15c3yImP7?utm_source=generator&theme=0",
         "https://embed.music.apple.com/us/album/as-it-was/1615584999?i=1615585008",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1242349246&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-        "https://widget.deezer.com/widget/dark/track/1703487577"
+        "https://widget.deezer.com/widget/dark/track/1703487577",
+        "../Artists/HarryStyles.html"
         
         )
     }
@@ -152,7 +154,8 @@ if (document.URL.includes("song_template.html")) {
         "https://open.spotify.com/embed/track/4LRPiXqCikLlN15c3yImP7?utm_source=generator&theme=0",
         "https://embed.music.apple.com/us/album/as-it-was/1615584999?i=1615585008",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1242349246&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-        "https://widget.deezer.com/widget/dark/track/1703487577"
+        "https://widget.deezer.com/widget/dark/track/1703487577",
+        "../Artists/JuiceWrld.html"
         
         )
     }
@@ -161,11 +164,12 @@ if (document.URL.includes("song_template.html")) {
         "Noa-Nodz | As It Was - Harry Styles", 
         "As It Was", 
         "Harry Styles", 
-        "../Artists/HarryStyles/Images/AsItWas.jpg",
+        "../Songs/Cover Pictures/AsItWas.jpg",
         "https://open.spotify.com/embed/track/4LRPiXqCikLlN15c3yImP7?utm_source=generator&theme=0",
         "https://embed.music.apple.com/us/album/as-it-was/1615584999?i=1615585008",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1242349246&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-        "https://widget.deezer.com/widget/dark/track/1703487577"
+        "https://widget.deezer.com/widget/dark/track/1703487577",
+        "../Artists/HarryStyles.html"
         
         )
     }
@@ -179,7 +183,7 @@ if (document.URL.includes("song_template.html")) {
         "https://embed.music.apple.com/us/album/montero/1582660720",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         "https://widget.deezer.com/widget/dark/album/258772832",
-        "../Artists/LilNasX/LilNasX.html"
+        "../Artists/LilNasX.html"
         
         )
     }
@@ -192,7 +196,8 @@ if (document.URL.includes("song_template.html")) {
         "https://open.spotify.com/embed/album/7xV2TzoaVc0ycW7fwBwAml?utm_source=generator&theme=0",
         "https://embed.music.apple.com/us/album/fine-line/1485802965",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/944166691&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-        "https://widget.deezer.com/widget/dark/album/122664252"
+        "https://widget.deezer.com/widget/dark/album/122664252",
+        "../Artists/HarryStyles.html"
         
         )
     }
@@ -205,7 +210,8 @@ if (document.URL.includes("song_template.html")) {
         "https://open.spotify.com/embed/track/1n7omixiROWs5q6xpWiQuL?utm_source=generator&theme=0",
         "https://embed.music.apple.com/us/album/satisfaction-benny-benassi-presents-the-biz/285865925?i=285865932",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/299148405&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-        "https://widget.deezer.com/widget/dark/track/13839055"
+        "https://widget.deezer.com/widget/dark/track/13839055",
+        "#"
         
         )
     }
@@ -218,7 +224,8 @@ if (document.URL.includes("song_template.html")) {
         "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
         "https://embed.music.apple.com/us/album/montero/1582660720",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832"
+        "https://widget.deezer.com/widget/dark/album/258772832",
+        "../Artists/DojaCat.html"
         
         )
     }
@@ -232,7 +239,7 @@ if (document.URL.includes("song_template.html")) {
         "https://embed.music.apple.com/us/album/montero/1582660720",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         "https://widget.deezer.com/widget/dark/album/258772832",
-        "../Artists/LilNasX/LilNasX.html"
+        "../Artists/LilNasX.html"
         
         )
     }
@@ -246,7 +253,7 @@ if (document.URL.includes("song_template.html")) {
         "https://embed.music.apple.com/us/album/montero/1582660720",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         "https://widget.deezer.com/widget/dark/album/258772832",
-        "../Artists/LilNasX/LilNasX.html"
+        "../Artists/LilNasX.html"
         
         )
     }
@@ -260,7 +267,7 @@ if (document.URL.includes("song_template.html")) {
         "https://embed.music.apple.com/us/album/montero/1582660720",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         "https://widget.deezer.com/widget/dark/album/258772832",
-        "../Artists/LilNasX/LilNasX.html"
+        "../Artists/LilNasX.html"
         
         )
     }
@@ -274,7 +281,7 @@ if (document.URL.includes("song_template.html")) {
         "https://embed.music.apple.com/us/album/montero/1582660720",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         "https://widget.deezer.com/widget/dark/album/258772832",
-        "../Artists/LilNasX/LilNasX.html"
+        "../Artists/LilNasX.html"
         
         )
     }
@@ -287,7 +294,8 @@ if (document.URL.includes("song_template.html")) {
         "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
         "https://embed.music.apple.com/us/album/montero/1582660720",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832"
+        "https://widget.deezer.com/widget/dark/album/258772832",
+        "../Artists/DojaCat.html"
         
         )
     }
@@ -300,7 +308,8 @@ if (document.URL.includes("song_template.html")) {
         "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
         "https://embed.music.apple.com/us/album/montero/1582660720",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832"
+        "https://widget.deezer.com/widget/dark/album/258772832",
+        "#"
         
         )
     }
@@ -313,7 +322,8 @@ if (document.URL.includes("song_template.html")) {
         "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
         "https://embed.music.apple.com/us/album/montero/1582660720",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832"
+        "https://widget.deezer.com/widget/dark/album/258772832",
+        "#"
         
         )
     }
@@ -327,7 +337,7 @@ if (document.URL.includes("song_template.html")) {
         "https://embed.music.apple.com/us/album/montero/1582660720",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         "https://widget.deezer.com/widget/dark/album/258772832",
-        "../Artists/LilNasX/LilNasX.html"
+        "../Artists/LilNasX.html"
         
         )
     }
@@ -341,7 +351,7 @@ if (document.URL.includes("song_template.html")) {
         "https://embed.music.apple.com/us/album/montero/1582660720",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         "https://widget.deezer.com/widget/dark/album/258772832",
-        "../Artists/LilNasX/LilNasX.html"
+        "../Artists/LilNasX.html"
         
         )
     }
@@ -355,7 +365,7 @@ if (document.URL.includes("song_template.html")) {
         "https://embed.music.apple.com/us/album/montero/1582660720",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         "https://widget.deezer.com/widget/dark/album/258772832",
-        "../Artists/LilNasX/LilNasX.html"
+        "../Artists/LilNasX.html"
         
         )
     }
@@ -368,7 +378,8 @@ if (document.URL.includes("song_template.html")) {
         "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
         "https://embed.music.apple.com/us/album/montero/1582660720",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832"
+        "https://widget.deezer.com/widget/dark/album/258772832",
+        "../Artists/DojaCat.html"
         
         )
     }
@@ -381,7 +392,8 @@ if (document.URL.includes("song_template.html")) {
         "https://open.spotify.com/embed/track/1MOsWaaMx4L7YUYGu7LdEx?utm_source=generator&theme=0",
         "https://embed.music.apple.com/us/album/shadowbringers/1477136155?i=1477136551",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/657272936&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-        "https://widget.deezer.com/widget/dark/track/731353052"
+        "https://widget.deezer.com/widget/dark/track/731353052",
+        "#"
         
         )
     }
