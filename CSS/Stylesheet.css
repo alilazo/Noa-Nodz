@@ -21,6 +21,16 @@ body {
     background-color: #333;
 }
 
+.Highlight
+{
+    position: relative;
+    font-size: 60px;
+    background: -webkit-linear-gradient(90deg, transparent 0%, #0abde3 100%),
+            -webkit-linear-gradient(0deg, transparent 0%, #2e86de 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
 img {
     
   transition: .5s ease;
