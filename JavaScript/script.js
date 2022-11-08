@@ -147,14 +147,14 @@ if (document.URL.includes("song_template.html")) {
     }
     if(localStorage.getItem(localStorage.key(0)).includes("GoodByeAndGoodRiddance")){
         changeTemplate(
-        "Noa-Nodz | Good Bye And Good Riddance - Juice Wrld", 
-        "Good Bye And Good Riddance", 
+        "Noa-Nodz | Legends Never Die - Juice Wrld", 
+        "Legends Never Die", 
         "Juice Wrld", 
         "../Albums/Cover Pictures/Good BYe and Good Riddance.jfif",
-        "https://open.spotify.com/embed/track/4LRPiXqCikLlN15c3yImP7?utm_source=generator&theme=0",
-        "https://embed.music.apple.com/us/album/as-it-was/1615584999?i=1615585008",
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1242349246&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-        "https://widget.deezer.com/widget/dark/track/1703487577",
+        "https://open.spotify.com/embed/album/6n9DKpOxwifT5hOXtgLZSL?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/legends-never-die/1526561014",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1089099811&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+        "https://widget.deezer.com/widget/dark/album/165354302",
         "../Artists/JuiceWrld.html"
         
         )
@@ -221,10 +221,10 @@ if (document.URL.includes("song_template.html")) {
         "Kiss Me More", 
         "Doja Cat", 
         "../Songs/Cover Pictures/KissMeMore-DojaCat.jpg",
-        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
-        "https://embed.music.apple.com/us/album/montero/1582660720",
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832",
+        "https://open.spotify.com/embed/track/3DarAbFujv6eYNliUTyqtz?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/kiss-me-more-feat-sza/1561866167?i=1561866170",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1023919816&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+        "https://widget.deezer.com/widget/dark/track/1321495602",
         "../Artists/DojaCat.html"
         
         )
@@ -291,10 +291,10 @@ if (document.URL.includes("song_template.html")) {
         "I Like You", 
         "Doja Cat", 
         "../Songs/Cover Pictures/ILikeyou-DojaCat.jpg",
-        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
-        "https://embed.music.apple.com/us/album/montero/1582660720",
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832",
+        "https://open.spotify.com/embed/track/0O6u0VJ46W86TxN9wgyqDj?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/i-like-you-a-happier-song-feat-doja-cat/1623192950?i=1623193283",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1279844374&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+        "https://widget.deezer.com/widget/dark/track/1775918667",
         "../Artists/DojaCat.html"
         
         )
@@ -305,10 +305,10 @@ if (document.URL.includes("song_template.html")) {
         "I am a Gummy Bear", 
         "The Gummy Bear Song", 
         "../Songs/Cover Pictures/IAmAGummyBear-GummyBear.jpg",
-        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
-        "https://embed.music.apple.com/us/album/montero/1582660720",
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832",
+        "https://open.spotify.com/embed/track/6nFYXpBgrNcZjbtNEuc6yR?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/i-am-a-gummy-bear-the-gummy-bear-song/305828196?i=305828241",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/229786052&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+        "https://widget.deezer.com/widget/dark/track/1558374012",
         "#"
         
         )
@@ -319,10 +319,10 @@ if (document.URL.includes("song_template.html")) {
         "Poland", 
         "Lil Yachty", 
         "../Songs/Cover Pictures/Poland-LilYachty.jpg",
-        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
-        "https://embed.music.apple.com/us/album/montero/1582660720",
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832",
+        "https://open.spotify.com/embed/track/74loibzxXRL875X20kenvk?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/poland/1648986467?i=1648986486",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1356822547&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+        "https://widget.deezer.com/widget/dark/track/1954515757",
         "#"
         
         )
@@ -375,10 +375,10 @@ if (document.URL.includes("song_template.html")) {
         "Get It To It", 
         "Doja Cat", 
         "../Songs/Cover Pictures/GetIntoIt-DojaCat.jpg",
-        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
-        "https://embed.music.apple.com/us/album/montero/1582660720",
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832",
+        "https://open.spotify.com/embed/track/0W6I02J9xcqK8MtSeosEXb?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/get-into-it-yuh/1571168930?i=1571169191",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1073025196&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+        "https://widget.deezer.com/widget/dark/track/1410738072",
         "../Artists/DojaCat.html"
         
         )
@@ -389,10 +389,10 @@ if (document.URL.includes("song_template.html")) {
         "Robbery", 
         "Juice WRLD", 
         "../Songs/Cover Pictures/Robbery.jfif",
-        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
-        "https://embed.music.apple.com/us/album/montero/1582660720",
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832",
+        "https://open.spotify.com/embed/track/6iaSML1PIYq936g62BDtBq?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/robbery/1454440896?i=1454441104",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/574858791&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+        "https://widget.deezer.com/widget/dark/track/1634179012",
         "../Artists/JuiceWrld.html"
         
         )
@@ -403,10 +403,10 @@ if (document.URL.includes("song_template.html")) {
         "Righteous", 
         "Juice WRLD", 
         "../Songs/Cover Pictures/Righteous.jfif",
-        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
-        "https://embed.music.apple.com/us/album/montero/1582660720",
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832",
+        "https://open.spotify.com/embed/track/5dOxHHMOFAbG3VH23t0xNm?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/righteous/1526561014?i=1526562022",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/805856467&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+        "https://widget.deezer.com/widget/dark/track/1016968432",
         "../Artists/JuiceWrld.html"
         
         )
