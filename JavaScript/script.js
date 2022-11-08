@@ -411,6 +411,34 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
+    if(localStorage.getItem(localStorage.key(0)).includes("LateNightTalking")){
+        changeTemplate(
+        "Noa-Nodz | Late Night Talking - Harry Styles", 
+        "Late Night Talking", 
+        "Harry Styles", 
+        "../Songs/Cover Pictures/LateNightTalking.jfif",
+        "https://open.spotify.com/embed/track/1qEmFfgcLObUfQm0j1W2CK?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/late-night-talking/1615584999?i=1615585006",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1270786810&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+        "https://widget.deezer.com/widget/dark/track/1756569577",
+        "../Artists/JuiceWrld.html"
+        
+        )
+    }
+    if(localStorage.getItem(localStorage.key(0)).includes("Matilda")){
+        changeTemplate(
+        "Noa-Nodz | Matilda - Harry Styles", 
+        "Matilda", 
+        "Harry Styles", 
+        "../Songs/Cover Pictures/Matilda.jfif",
+        "https://open.spotify.com/embed/track/6uvh0In7u1Xn4HgxOfAn8O?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/matilda/1615584999?i=1615585012",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1270786291&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+        "https://widget.deezer.com/widget/dark/track/1756569627",
+        "../Artists/JuiceWrld.html"
+        
+        )
+    }
     if(localStorage.getItem(localStorage.key(0)).includes("Shadowbringers")){
         changeTemplate(
         "Noa-Nodz | Shadowbringers - Final Fantasy XIV: Shadowbringers", 
