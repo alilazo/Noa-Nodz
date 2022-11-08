@@ -145,7 +145,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("GooodByeAndGoodRiddance")){
+    if(localStorage.getItem(localStorage.key(0)).includes("GoodByeAndGoodRiddance")){
         changeTemplate(
         "Noa-Nodz | Good Bye And Good Riddance - Juice Wrld", 
         "Good Bye And Good Riddance", 
@@ -235,10 +235,10 @@ if (document.URL.includes("song_template.html")) {
         "Star Walkin", 
         "Lil Nas X", 
         "../Songs/Cover Pictures/StarWalkinSong.jpg",
-        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
-        "https://embed.music.apple.com/us/album/montero/1582660720",
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832",
+        "https://open.spotify.com/embed/track/38T0tPVZHcPZyhtOcCP7pF?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/star-walkin-league-of-legends-worlds-anthem/1642613175?i=1642613664",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1348340140&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/track/1924639057",
         "../Artists/LilNasX.html"
         
         )
@@ -249,10 +249,10 @@ if (document.URL.includes("song_template.html")) {
         "Panini", 
         "Lil Nas X", 
         "../Songs/Cover Pictures/PaniniSong.jpg",
-        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
-        "https://embed.music.apple.com/us/album/montero/1582660720",
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832",
+        "https://open.spotify.com/embed/track/4SDgTLDYrJ2UrHbkRkg7MD?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/panini-dababy-remix/1479239195?i=1479239196",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/679807847&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/track/753157742",
         "../Artists/LilNasX.html"
         
         )
@@ -263,10 +263,10 @@ if (document.URL.includes("song_template.html")) {
         "Holiday", 
         "Lil Nas X", 
         "../Songs/Cover Pictures/HolidaySong.jpg",
-        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
-        "https://embed.music.apple.com/us/album/montero/1582660720",
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832",
+        "https://open.spotify.com/embed/track/6zFMeegAMYQo0mt8rXtrli?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/holiday/1539565272?i=1539565285",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/927660829&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/track/1139537462",
         "../Artists/LilNasX.html"
         
         )
@@ -277,10 +277,10 @@ if (document.URL.includes("song_template.html")) {
         "Old Town Road", 
         "Lil Nas X", 
         "../Songs/Cover Pictures/OldTownRoadSong.jpg",
-        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
-        "https://embed.music.apple.com/us/album/montero/1582660720",
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832",
+        "https://open.spotify.com/embed/track/6u7jPi22kF8CTQ3rb9DHE7?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/old-town-road-feat-billy-ray-cyrus-remix/1458638377?i=1458638381",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/600964365&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/track/699056192",
         "../Artists/LilNasX.html"
         
         )
@@ -333,10 +333,10 @@ if (document.URL.includes("song_template.html")) {
         "Industry Baby", 
         "Lil Nas X", 
         "../Songs/Cover Pictures/IndustryBabySong.jpg",
-        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
-        "https://embed.music.apple.com/us/album/montero/1582660720",
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832",
+        "https://open.spotify.com/embed/track/27NovPIUIRrOZoCHxABJwK?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/industry-baby/1576552540?i=1576552565",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1091068756&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/track/1439691952",
         "../Artists/LilNasX.html"
         
         )
@@ -347,10 +347,10 @@ if (document.URL.includes("song_template.html")) {
         "Rodeo", 
         "Lil Nas X", 
         "../Songs/Cover Pictures/RodeoSong.jpg",
-        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
-        "https://embed.music.apple.com/us/album/montero/1582660720",
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832",
+        "https://open.spotify.com/embed/track/7ikRId3U9AXd6tfF2fbItC?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/rodeo/1495107244?i=1495107370",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/748947898&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/track/860263412",
         "../Artists/LilNasX.html"
         
         )
@@ -361,10 +361,10 @@ if (document.URL.includes("song_template.html")) {
         "Sun Goes Down", 
         "Lil Nas X", 
         "../Songs/Cover Pictures/SunGoesDownSong.jpg",
-        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
-        "https://embed.music.apple.com/us/album/montero/1582660720",
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://widget.deezer.com/widget/dark/album/258772832",
+        "https://open.spotify.com/embed/track/34eF4BoV8FPk0uhAAoqU7h?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/sun-goes-down/1567410554?i=1567410789",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1050538246&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/track/1375065762",
         "../Artists/LilNasX.html"
         
         )
@@ -380,6 +380,34 @@ if (document.URL.includes("song_template.html")) {
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         "https://widget.deezer.com/widget/dark/album/258772832",
         "../Artists/DojaCat.html"
+        
+        )
+    }
+    if(localStorage.getItem(localStorage.key(0)).includes("Robbery")){
+        changeTemplate(
+        "Noa-Nodz | Robbery - Juice WRLD", 
+        "Robbery", 
+        "Juice WRLD", 
+        "../Songs/Cover Pictures/Robbery.jfif",
+        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/montero/1582660720",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/album/258772832",
+        "../Artists/JuiceWrld.html"
+        
+        )
+    }
+    if(localStorage.getItem(localStorage.key(0)).includes("Righteous")){
+        changeTemplate(
+        "Noa-Nodz | Righteous - Juice WRLD", 
+        "Righteous", 
+        "Juice WRLD", 
+        "../Songs/Cover Pictures/Righteous.jfif",
+        "https://open.spotify.com/embed/album/6pOiDiuDQqrmo5DbG0ZubR?utm_source=generator&theme=0",
+        "https://embed.music.apple.com/us/album/montero/1582660720",
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1316422069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "https://widget.deezer.com/widget/dark/album/258772832",
+        "../Artists/JuiceWrld.html"
         
         )
     }

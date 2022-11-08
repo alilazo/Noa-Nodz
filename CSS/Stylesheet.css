@@ -328,7 +328,7 @@ div::-webkit-scrollbar-thumb {
 }
 
 .albumHoverContainer:hover img {
-    border-radius: 48px;
+    border-radius: 64px;
     filter: blur(1px);
 }
 
@@ -400,12 +400,6 @@ tr > th {
     cursor: pointer;
 }
 
-.artistColumn {
-    border-collapse: collapse;
-    border: 5px solid #ddd;
-    border-spacing: 4px;
-}
-
 .artistColumn tr:nth-child(2n+1){
     background-color: rgb(40, 39, 39);
 }
@@ -423,7 +417,7 @@ tr > th {
 }
 
 .ArtistSingles tr > th img:hover{
-    border-radius: 20px;
+    border-radius: 40px;
     box-shadow: 10px 10px 10px black;
 }
 
