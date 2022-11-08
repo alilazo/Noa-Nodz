@@ -369,7 +369,6 @@ div::-webkit-scrollbar-thumb {
 
 /*This is for artists.html*/
 .artistsPage {
-    margin-top: 50px;
     padding: 50px;
 }
 
@@ -395,7 +394,7 @@ tr > th {
 }
 
 .artistPics:hover {
-    border-radius: 20px;
+    border-radius: 40px;
     box-shadow: 10px 10px 10px black;
     cursor: pointer;
 }
