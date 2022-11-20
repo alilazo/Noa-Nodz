@@ -104,7 +104,12 @@ if (document.URL.includes("song_template.html")) {
     console.log("You are in the song template page")
     console.log(localStorage.length + " " + localStorage.key(0))
 
-    if(localStorage.getItem(localStorage.key(0)).includes("7Ep")){
+    localStorageItems = []
+    for (var i = 0; i < localStorage.length; i++) {
+        localStorageItems.push(localStorage.key(i))
+    }
+
+    if(localStorageItems.includes("7Ep")){
         changeTemplate(
         "Noa-Nodz | 7EP - Lil Nas X", 
         "7EP", 
@@ -117,7 +122,7 @@ if (document.URL.includes("song_template.html")) {
         "../Artists/LilNasX.html"
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("PlanetHer")){
+    if(localStorageItems.includes("PlanetHer")){
         changeTemplate(
         "Noa-Nodz | Planet Her - Doja Cat", 
         "Planet Her", 
@@ -131,7 +136,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("HarrysHouse")){
+    if(localStorageItems.includes("HarrysHouse")){
         changeTemplate(
         "Noa-Nodz | Harry's House - Harry Styles", 
         "Harry's House", 
@@ -145,7 +150,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("GoodByeAndGoodRiddance")){
+    if(localStorageItems.includes("GoodByeAndGoodRiddance")){
         changeTemplate(
         "Noa-Nodz | Legends Never Die - Juice Wrld", 
         "Legends Never Die", 
@@ -159,7 +164,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("As_It_Was")){
+    if(localStorageItems.includes("As_It_Was")){
         changeTemplate(
         "Noa-Nodz | As It Was - Harry Styles", 
         "As It Was", 
@@ -173,7 +178,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("Montero")){
+    if(localStorageItems.includes("Montero")){
         changeTemplate(
         "Noa-Nodz | MONTERO - Lil Nas X", 
         "Montero", 
@@ -187,7 +192,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("FineLine")){
+    if(localStorageItems.includes("FineLine")){
         changeTemplate(
         "Noa-Nodz | Fine Line - Harry Styles", 
         "Fine Line", 
@@ -201,7 +206,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("Satisfaction")){
+    if(localStorageItems.includes("Satisfaction")){
         changeTemplate(
         "Noa-Nodz | Satisfaction - Isak Original", 
         "Satisfaction", 
@@ -215,7 +220,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("KissMeMore")){
+    if(localStorageItems.includes("KissMeMore")){
         changeTemplate(
         "Noa-Nodz | Kiss Me More - Doja cat", 
         "Kiss Me More", 
@@ -229,7 +234,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("StarWalkin")){
+    if(localStorageItems.includes("StarWalkin")){
         changeTemplate(
         "Noa-Nodz | Star Walkin - Lil Nas X", 
         "Star Walkin", 
@@ -243,7 +248,9 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("Panini")){
+    //search through the localStorage and find an item that includes the name of the song
+    
+    if(localStorageItems.includes("Panini")){
         changeTemplate(
         "Noa-Nodz | Panini - Lil Nas X", 
         "Panini", 
@@ -257,7 +264,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("Holiday")){
+    if(localStorageItems.includes("Holiday")){
         changeTemplate(
         "Noa-Nodz | Holiday - Lil Nas X", 
         "Holiday", 
@@ -271,7 +278,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("OldTownRoad")){
+    if(localStorageItems.includes("OldTownRoad")){
         changeTemplate(
         "Noa-Nodz | Old Town Road - Lil Nas X", 
         "Old Town Road", 
@@ -285,7 +292,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("ILikeYou")){
+    if(localStorageItems.includes("ILikeYou")){
         changeTemplate(
         "Noa-Nodz | I Like You - Post Malone, Doja Cat", 
         "I Like You", 
@@ -299,7 +306,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("IAmAGummyBear")){
+    if(localStorageItems.includes("IAmAGummyBear")){
         changeTemplate(
         "Noa-Nodz | I am a Gummy Bear", 
         "I am a Gummy Bear", 
@@ -313,7 +320,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("Poland")){
+    if(localStorageItems.includes("Poland")){
         changeTemplate(
         "Noa-Nodz | Poland - Lil Yachty", 
         "Poland", 
@@ -327,7 +334,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("IndustryBaby")){
+    if(localStorageItems.includes("IndustryBaby")){
         changeTemplate(
         "Noa-Nodz | Industry Baby - Lil Nas X", 
         "Industry Baby", 
@@ -341,7 +348,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("Rodeo")){
+    if(localStorageItems.includes("Rodeo")){
         changeTemplate(
         "Noa-Nodz | Rodeo - Lil Nas X", 
         "Rodeo", 
@@ -355,7 +362,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("SunGoesDown")){
+    if(localStorageItems.includes("SunGoesDown")){
         changeTemplate(
         "Noa-Nodz | Sun Goes Down - Lil Nas X", 
         "Sun Goes Down", 
@@ -369,7 +376,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("GetItToIt")){
+    if(localStorageItems.includes("GetItToIt")){
         changeTemplate(
         "Noa-Nodz | Get It To It - Doja Cat", 
         "Get It To It", 
@@ -383,7 +390,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("Robbery")){
+    if(localStorageItems.includes("Robbery")){
         changeTemplate(
         "Noa-Nodz | Robbery - Juice WRLD", 
         "Robbery", 
@@ -397,7 +404,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("Righteous")){
+    if(localStorageItems.includes("Righteous")){
         changeTemplate(
         "Noa-Nodz | Righteous - Juice WRLD", 
         "Righteous", 
@@ -411,7 +418,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("LateNightTalking")){
+    if(localStorageItems.includes("LateNightTalking")){
         changeTemplate(
         "Noa-Nodz | Late Night Talking - Harry Styles", 
         "Late Night Talking", 
@@ -425,7 +432,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("Matilda")){
+    if(localStorageItems.includes("Matilda")){
         changeTemplate(
         "Noa-Nodz | Matilda - Harry Styles", 
         "Matilda", 
@@ -439,7 +446,7 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    if(localStorage.getItem(localStorage.key(0)).includes("Shadowbringers")){
+    if(localStorageItems.includes("Shadowbringers")){
         changeTemplate(
         "Noa-Nodz | Shadowbringers - Final Fantasy XIV: Shadowbringers", 
         "Shadowbringers", 
