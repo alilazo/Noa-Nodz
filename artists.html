@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/Stylesheet.css" />
+    <link rel="shortcut icon" href="./Images/favicon.png" />
+    <script src="JavaScript/script.js"></script>
+    <title>Artists</title>
+  </head>
+  <body>
+      <!--Make Navigation Mobile Friendly-->
+    <div class="Navigation">
+      <ul>
+        <li><a href="index.html"><h1>Home</h1></a></li>
+        <li><a href="albums.html"><h1>Albums</h1></a></li>
+        <x-sign>
+          <li><a href= "index.html"><h1 class="logo" style="text-align: center;"> <class="neon" data-text="U">Noa<span class="flicker-slow">N</span>o<span class="flicker-fast">d</span>z</h1></a></li>
+        </x-sign>
+        <li><a href="songs.html"><h1>Songs</h1></a></li>
+        <li><a href="artists.html"><h1>Artists</h1></a></li>
+    </ul>
+    </div>
+
+    <h1 class="Highlight" style="text-align: center;">Top Artists</h1>
+    <div class="artistsPage">
+      <table class="artistList">
+        <tr>
+          <th></th>
+          <th>Artist Name</th>
+          <th>Genre</th>
+          <th>Album</th>
+        </tr>
+        <tbody class="artistColumn">
+          <tr>
+              <td><img class="artistPics" src="./Pictures/lilnasxProfilePic.webp" width="8%" onclick="window.open('./Artists/LilNasX.html', '_self')"/></td>
+              <td>Lil Nas X</td>
+              <td>Pop</td>
+              <td>Montero</td>
+          </tr>
+          <tr>
+            <td><img class="artistPics" src="./Pictures/harryStyles.jpg" width="8%" onclick="window.open('./Artists/HarryStyles.html', '_self')"/></td>
+            <td>Harry Styles</td>
+            <td>Pop</td>
+            <td>Harry's House</td>
+          </tr>
+          <tr>
+            <td><img class="artistPics" src="./Pictures/dojaCat.jpg" width="8%" onclick="window.open('./Artists/DojaCat.html', '_self')"/></td>
+            <td>Doja Cat</td>
+            <td>Pop</td>
+            <td>Planet Her</td>
+          </tr>
+          <tr>
+            <td><img class="artistPics" src="./Pictures/juiceWrld.jpg" width="8%" onclick="window.open('./Artists/JuiceWrld.html', '_self')"/></td>
+            <td>Juice Wrld</td>
+            <td>Pop, Rap</td>
+            <td>Good Bye & <br>Good Riddance</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer>
+      <p>&copy; Noa Nodz</p>
+    </footer>
+  </body>
+</html>

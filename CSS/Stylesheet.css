@@ -1,0 +1,506 @@
+@font-face {
+    font-family: "Cyber";
+    src: url(fonts/CyberwayRiders-lg97d.ttf)
+}
+
+@font-face {
+    font-family: "Valorant";
+    src: url(fonts/Valorant\ Font.ttf)
+}
+
+h1{
+    font-family: 'Valorant';
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    color: #ecf0f1;
+    background-color: #333;
+}
+
+.Highlight
+{
+    position: relative;
+    font-size: 60px;
+    background: -webkit-linear-gradient(90deg, transparent 0%, #0abde3 100%),
+            -webkit-linear-gradient(0deg, transparent 0%, #2e86de 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+img {
+    
+  transition: .5s ease;
+}
+
+.Navigation {
+    display: block;
+    padding-top: 5px;
+    text-align: center;
+    background-color: rgb(40, 39, 39);
+    
+}
+
+.Navigation ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    
+}
+
+.Navigation li {
+    padding-right: 35px;
+    padding-left: 35px;
+    float: left;
+}
+
+.Navigation li a {
+    text-decoration: none;
+    position: relative;
+    color: #0abde3;
+    font-family: 'Valorant';
+    
+}
+
+.logo {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 60px;
+    color: #0abde3;
+    font-family:'Cyber';
+}
+
+.Container{
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left:  10px;
+}
+
+.collapsible {
+    background-color: rgb(40, 39, 39);;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 24.50%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    display: inline;
+}
+
+.collapsible img{
+    margin-left: auto; 
+    margin-right: auto; 
+    height: 50px;
+}
+
+.Scroll{
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow-x:auto;
+}
+
+.Scroll h1{
+    margin-left: 20px; 
+    margin-bottom: 0px;
+}
+
+.Scroll table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.Scroll td, th {
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    font-size: 30;
+    font-weight: bold;
+}
+
+.Scroll img{
+    height: 250px;
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #333;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: lightgrey;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #333;  /* creates padding around scroll thumb */
+} 
+
+div::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+
+div::-webkit-scrollbar-track {
+    background: #333;        /* color of the tracking area */
+}
+
+div::-webkit-scrollbar-thumb {
+    background-color: lightgrey;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #333;  /* creates padding around scroll thumb */
+} 
+  
+.active, .collapsible:hover {
+    background-color: #555;
+}
+  
+.content {
+    width: 100%;
+    display: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Sliding Transition for the button
+#b1{
+    transition:width 1s;
+}
+*/
+
+.AlbumOfTheWeek {
+    width: 100%; 
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #222f3e;
+}
+
+.HomeListenButton {
+    position: absolute;
+    background-color: #0abde3;
+    border: none;
+    color: white;
+    padding: 16px 128px;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.textOverlay {
+    position: absolute;
+    transition: .5s ease;
+    opacity: 0;
+    top: 25%;
+    left: 50%; 
+    transform: translate(-50%);
+    font-size: 28px;
+}
+
+.HomeListenButton:hover {
+    background-color: #c8d6e5;
+    color: black;
+}
+
+.hoverContainer:hover .textOverlay {
+    opacity: 1;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+.hoverContainer:hover img {
+    opacity: 0.3;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+/*This is for the song_template*/
+.songTemplateCoverPicture{
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    border-radius: 8px; 
+    box-shadow: 10px 10px 10px #151e26;
+    object-fit: cover;
+    width: 40%;
+    height: 40%;
+}
+
+.songTemplateBackgroundPicture {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    object-fit: cover;
+    z-index: -1;
+    filter: grayscale(100%);
+}
+
+.Song_Name {
+    animation: slide-right 2s;
+}
+
+@keyframes slide-right {
+    from {
+       margin-left: 100px;
+       opacity: 0;
+    }
+
+    to {
+       margin-left: 0%;
+       opacity: 1;
+    }
+ }
+
+/*This is for songs.html*/
+
+.songList {
+    position: relative;
+    text-align: center;
+}
+
+.song {
+    position: relative;
+    display: inline-block;
+}
+
+.song img{
+    height: 320px;
+    width: 320px;
+    border-radius: 12%;
+    padding: 30px;
+}
+
+.SongListenButton {
+    position: absolute;
+    background-color: #0abde3;
+    border: none;
+    color: white;
+    padding: 6px 68px;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.SongListenButton:hover {
+    background-color: #c8d6e5;
+    color: black;
+}
+
+/*This is for album.html*/
+.albumPage {
+    position: relative;
+    text-align: center;
+}
+
+.albums {
+    position: relative;
+    display: inline-block;
+}
+
+.Album {
+    border-radius: 20px; 
+    margin: 30px; 
+    width: 300px; 
+    height: 300px; 
+    box-shadow: 5px 5px 5px black;
+    filter: blur(0px);
+}
+
+.albumHoverContainer:hover .albumTextOverlay {
+    opacity: 1;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+.albumHoverContainer:hover img {
+    border-radius: 64px;
+    filter: blur(1px);
+}
+
+
+.albumTextOverlay {
+    position: absolute;
+    transition: .5s ease;
+    opacity: 0;
+    top: 25%;
+    left: 50%; 
+    transform: translate(-50%);
+    font-size: 24px;
+}
+
+.AlbumListenButton {
+    position: absolute;
+    background-color: #0abde3;
+    border: none;
+    color: white;
+    padding: 6px 68px;
+    top: 91%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.AlbumListenButton:hover {
+    background-color: #c8d6e5;
+    color: black;
+}
+
+/*This is for artists.html*/
+.artistsPage {
+    padding: 50px;
+}
+
+.artistList {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+tr > th {
+    text-align: left;
+    font-size: large;
+    padding: 0;
+}
+
+.artistPics {
+    position: relative;
+    border-radius: 8px; 
+    box-shadow: 5px 5px 10px black;
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.artistPics:hover {
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px black;
+    cursor: pointer;
+}
+
+.artistColumn tr:nth-child(2n+1){
+    background-color: rgb(40, 39, 39);
+}
+
+.ArtistSingles {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.ArtistSingles tr > th img{
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px black;
+    margin: 10px;
+}
+
+.ArtistSingles tr > th img:hover{
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px black;
+}
+
+
+footer {
+    position: relative;
+    padding: 10px;
+    bottom: 0;
+    height: 2.5rem;
+}
+
+/*For the Logo Neon*/
+x-sign {
+    --interval: 1s;
+    text-shadow: 
+      0 0 10px var(--color1),
+      0 0 20px var(--color2),
+      0 0 30px var(--color3),
+      0 0 60px var(--color4);
+    will-change: filter, color;
+    filter: saturate(60%);
+    animation: flicker steps(100) var(--interval) 1s infinite;
+    color: white;
+   ;
+  }
+
+  x-sign:nth-of-type(1) {
+    color: azure;
+    --color1: azure;
+    --color2: aqua;
+    --color3: dodgerblue;
+    --color4: blue;
+}
+*
+  .flicker-slow{
+    animation: flicker 3s linear infinite;
+  }
+  
+  .flicker-fast{
+    animation: flicker 1s linear infinite;
+  }
+  
+  @keyframes flicker {
+    0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+        opacity: .99; 
+    }
+    20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+        opacity: 0.4;
+    }
+  }
+
+  /*For Underline Nav*/
+  .Navigation h1 {
+
+    display: inline-block;
+    position: relative;
+  }
+  .Navigation h1:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #0abde3;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .Navigation h1:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  @media screen and (max-height: 300px) {
+      ul {
+          margin-top: 40px;
+      }
+  }

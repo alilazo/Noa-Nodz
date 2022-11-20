@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <link rel="stylesheet" href="../CSS/Stylesheet.css">
+        <link rel="shortcut icon" href="../Images/favicon.png" />
+        <script src="../JavaScript/script.js"></script>
+        <title>Noa-Nodz | Lil Nas X</title>
+
+        <style>
+            .centerDivElement{
+                margin-top: 35px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .contentText img{
+                height: 300px;
+                margin: 0 30px 30px 30px;
+                float: left;
+            }
+
+            p{
+                margin: 0;
+                font-size: x-large;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Navigation">
+            <ul>
+                <li><a href="../index.html"><h1>Home</h1></a></li>
+                <li><a href="../albums.html"><h1>Albums</h1></a></li>
+                <x-sign>
+                    <li><a href= "../index.html"><h1 class="logo" style="text-align: center;"> <class="neon" data-text="U">Noa<span class="flicker-slow">N</span>o<span class="flicker-fast">d</span>z</h1></a></li>
+                </x-sign>
+                <li><a href="../songs.html"><h1>Songs</h1></a></li>
+                <li><a href="../artists.html"><h1>Artists</h1></a></li>
+            </ul>
+        </div>
+
+        
+        <h1 style="text-align: center; margin-bottom: 0px; margin-top: 35px;" class="Song_Name">Doja Cat</h1>
+        <div class="centerDivElement">
+            <div style="box-shadow: 8px 8px rgb(40, 39, 39); width: 95%; padding: 25px; border: 2px solid rgb(40, 39, 39);" class="contentText">
+                <img src="./Images/DojaCat.jfif" style="box-shadow: 5px 5px 10px rgb(40, 39, 39); border-radius: 8px;"/>
+                <p>Amala Ratna Zandile Dlamini (born October 21, 1995), known professionally as Doja Cat (/ˈdoʊdʒə/ DOH-jə), is an American rapper and singer. Born and raised in Los Angeles, California, she began making and releasing music on SoundCloud as a teenager. Her song "So High" caught the attention of Kemosabe and RCA Records, with which she signed a joint record deal at the age of 17, subsequently releasing her debut EP Purrr! in 2014.<br>
+                    After a hiatus from releasing music and the uneventful rollout of her debut studio album, Amala (2018), Doja Cat earned viral success as an internet meme with her 2018 single "Mooo!", a novelty song in which she makes satirical claims about being a cow. Capitalizing on her growing popularity, she released her second studio album, Hot Pink, in the following year. It reached the top 10 of the US Billboard 200 and spawned the single "Say So", which topped the Billboard Hot 100 chart following the release of a remix featuring Nicki Minaj. This album was followed by Planet Her (2021), which spent three consecutive weeks at number two on the Billboard 200 and spawned the top 10 singles "Kiss Me More" (featuring SZA), "Need to Know", and "Woman".
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 35px;">
+            <h1>Singles:</h1>
+            <div class="Scroll">
+                <table class="ArtistSingles">
+                    <tr>
+                        <th>
+                            <img src="../Songs/Cover Pictures/KissMeMore-DojaCat.jpg" onclick="Listenbtn('KissMeMore', '../Songs/song_template.html')">
+                        </th>
+                        <th>
+                            <img src="../Songs/Cover Pictures/GetIntoIt-DojaCat.jpg" onclick="Listenbtn('GetItToIt', '../Songs/song_template.html')">
+                        </th>
+                        <th>
+                            <img src="../Songs/Cover Pictures/ILikeyou-DojaCat.jpg" onclick="Listenbtn('ILikeYou', '../Songs/song_template.html')">
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>Kiss Me More</td>
+                        <td>Get It To It</td>
+                        <td>I Like You</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="Scroll" style="margin-top: 35px;">
+                <h1>Albums/EPs:</h1>
+                <table class="ArtistSingles">
+                    <tr>
+                        <th>
+                            <img src="../Albums/Cover Pictures/planet her.jfif" onclick="Listenbtn('PlanetHer', '../Songs/song_template.html')">
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>Planet Her</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+
+        <footer>
+            <p>&copy; Noa Nodz</p>
+        </footer>
+    </body>
+</html>
