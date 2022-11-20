@@ -460,7 +460,8 @@ if (document.URL.includes("song_template.html")) {
         
         )
     }
-    //set localStoraged item called As_It_Was_btn to null when one pf the navbar and if the back button is pressed
+    //set teh localStoragItems to null
+    localStorageItems = null
 } else {
     //TODO: Maybe implement a 404 page not found here
     localStorage.clear()
