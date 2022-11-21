@@ -217,7 +217,6 @@ if (document.URL.includes("song_template.html")) {
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/299148405&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
         "https://widget.deezer.com/widget/dark/track/13839055",
         "#"
-        
         )
     }
     if(localStorageItems.includes("KissMeMore")){
