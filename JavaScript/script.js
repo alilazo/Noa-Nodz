@@ -211,7 +211,7 @@ if (document.URL.includes("song_template.html")) {
         "Noa-Nodz | Satisfaction - Isak Original", 
         "Satisfaction", 
         "Benny Benassi", 
-        "../Songs/Cover Pictures/Satisfaction.jfif",
+        "../Songs/Cover Pictures/satisfaction.jfif",
         "https://open.spotify.com/embed/track/1n7omixiROWs5q6xpWiQuL?utm_source=generator&theme=0",
         "https://embed.music.apple.com/us/album/satisfaction-benny-benassi-presents-the-biz/285865925?i=285865932",
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/299148405&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
